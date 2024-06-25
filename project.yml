@@ -1,0 +1,8 @@
+name: aadhaar-decoder
+packages:
+  - name: aadhaar-package
+    functions:
+      - name: qr-trigger
+        runtime: python3
+        handler: main.handler
+        public: true
